@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'Kit' do |ks|
     ks.source_files = 'TransnBase/Kit/*/*.{h,m}'
-    ks.public_header_files = 'TransnBase/Kit/*.h'
+    ks.public_header_files = 'TransnBase/Kit/*/*.h'
   end
   
   s.subspec 'Extension' do |es|
