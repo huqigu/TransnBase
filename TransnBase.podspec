@@ -88,7 +88,7 @@ TODO: Add long description of the pod here.
   #   'TransnBase' => ['TransnBase/Assets/*.{xib,png,xcassets}']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'MJExtension' , '~>  3.3.0'
   s.dependency 'RTRootNavigationController' , '~>  0.8.0'
