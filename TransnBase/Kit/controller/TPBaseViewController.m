@@ -12,7 +12,7 @@
 #import "TPProgressHUD.h"
 #import "TPConfig.h"
 #import "RCDUIBarButtonItem.h"
-
+#import "RCDCommonDefine.h"
 #import "TransnKitReasource.h"
 //#import <RTRootNavigationController/RTRootNavigationController.h>
 //#import "TPConfig.h"

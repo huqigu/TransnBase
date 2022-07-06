@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "TPBaseViewModel.h"
 #import "TPNoneDataView.h"
-#import "RCDCommonDefine.h"
 #import <RTRootNavigationController/RTRootNavigationController.h>
 #import "TPBaseAgent.h"
 //#import "TPUserInfo.h"
