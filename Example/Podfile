@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'TransnBase_Example' do
+  pod 'TransnBase', :path => '../'
+
+  target 'TransnBase_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
