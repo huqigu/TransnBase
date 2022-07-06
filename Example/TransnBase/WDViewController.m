@@ -7,7 +7,7 @@
 //
 
 #import "WDViewController.h"
-
+#import "WDHomeVC.h"
 @interface WDViewController ()
 
 @end
@@ -17,13 +17,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    UIButton *pushBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    pushBtn.backgroundColor = [UIColor redColor];
+    pushBtn.frame = CGRectMake(100, 100, 100, 100);
+    [pushBtn addTarget:self action:@selector(clickPushBtn) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:pushBtn];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)clickPushBtn {
+    WDHomeVC *homeVC = [[WDHomeVC alloc] init];
+    [self.navigationController pushViewController:homeVC animated:YES];
+    
+//    [self showToast:@"我的tosat"];
+    
+//    [self showHUD:nil];
 }
 
 @end

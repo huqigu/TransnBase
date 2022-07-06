@@ -7,12 +7,17 @@
 //
 
 #import "WDAppDelegate.h"
+#import <TransnBase/TPNavigationController.h>
+#import "WDViewController.h"
 
 @implementation WDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyWindow];
+    self.window.rootViewController = [[TPNavigationController alloc] initWithRootViewController:[[WDViewController alloc] init]];
     return YES;
 }
 

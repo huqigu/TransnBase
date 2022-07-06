@@ -1,0 +1,6 @@
+framework module Pods_TransnBase_Tests {
+  umbrella header "Pods-TransnBase_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

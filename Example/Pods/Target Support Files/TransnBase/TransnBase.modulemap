@@ -1,0 +1,6 @@
+framework module TransnBase {
+  umbrella header "TransnBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
