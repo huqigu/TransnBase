@@ -8,6 +8,56 @@ PODS:
     - Masonry
     - MJExtension (~> 3.3.0)
     - RTRootNavigationController (~> 0.8.0)
+    - TransnBase/Agent (= 0.1.0)
+    - TransnBase/Extension (= 0.1.0)
+    - TransnBase/Global (= 0.1.0)
+    - TransnBase/Kit (= 0.1.0)
+    - TransnBase/Manager (= 0.1.0)
+    - TransnBase/Model (= 0.1.0)
+    - TransnBase/Net (= 0.1.0)
+    - TransnBase/Public (= 0.1.0)
+    - TransnBase/Utilities (= 0.1.0)
+    - TransnBase/ViewModel (= 0.1.0)
+  - TransnBase/Agent (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Extension (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Global (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Kit (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Manager (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Model (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Net (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Public (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/Utilities (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
+  - TransnBase/ViewModel (0.1.0):
+    - Masonry
+    - MJExtension (~> 3.3.0)
+    - RTRootNavigationController (~> 0.8.0)
 
 DEPENDENCIES:
   - TransnBase (from `../`)
@@ -26,7 +76,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
-  TransnBase: 3208863ea0cb971af3b90d0c703bc3af4a129185
+  TransnBase: 3e041a21c1c1d013186428d85ced5b331f396e92
 
 PODFILE CHECKSUM: 6dec1f4f79160a41babb7b46c440a7c2f83f52a8
 

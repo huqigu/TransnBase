@@ -30,9 +30,59 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TransnBase/Classes/**/*'
+  s.source_files = 'TransnBase/*.{h,m}'
   
   s.resource = 'TransnBase/Assets/TransnBase.bundle'
+  
+  s.subspec 'Public' do |ps|
+    ps.source_files = 'TransnBase/Public/*.{h,m}'
+    ps.public_header_files = 'TransnBase/Public/*.h'
+  end
+  
+  s.subspec 'Manager' do |ms|
+    ms.source_files = 'TransnBase/Manager/*.{h,m}'
+    ms.public_header_files = 'TransnBase/Manager/*.h'
+  end
+  
+  s.subspec 'Kit' do |ks|
+    ks.source_files = 'TransnBase/Kit/*/*.{h,m}'
+    ks.public_header_files = 'TransnBase/Kit/*.h'
+  end
+  
+  s.subspec 'Extension' do |es|
+    es.source_files = 'TransnBase/Extension/*.{h,m}'
+    es.public_header_files = 'TransnBase/Extension/*.h'
+  end
+  
+  s.subspec 'ViewModel' do |vs|
+    vs.source_files = 'TransnBase/ViewModel/*.{h,m}'
+    vs.public_header_files = 'TransnBase/ViewModel/*.h'
+  end
+  
+  s.subspec 'Model' do |ms|
+    ms.source_files = 'TransnBase/Model/*.{h,m}'
+    ms.public_header_files = 'TransnBase/Model/*.h'
+  end
+  
+  s.subspec 'Net' do |ns|
+    ns.source_files = 'TransnBase/Net/*.{h,m}'
+    ns.public_header_files = 'TransnBase/Net/*.h'
+  end
+  
+  s.subspec 'Utilities' do |us|
+    us.source_files = 'TransnBase/Utilities/*.{h,m}'
+    us.public_header_files = 'TransnBase/Utilities/*.h'
+  end
+  
+  s.subspec 'Global' do |gs|
+    gs.source_files = 'TransnBase/Global/*.{h,m}'
+    gs.public_header_files = 'TransnBase/Global/*.h'
+  end
+  
+  s.subspec 'Agent' do |as|
+    as.source_files = 'TransnBase/Agent/*.{h,m}'
+    as.public_header_files = 'TransnBase/Agent/*.h'
+  end
   
   # s.resource_bundles = {
   #   'TransnBase' => ['TransnBase/Assets/*.{xib,png,xcassets}']

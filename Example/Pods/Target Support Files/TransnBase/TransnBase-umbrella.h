@@ -11,14 +11,15 @@
 #endif
 
 #import "TPBaseAgent.h"
+#import "NSString+TRExtension.h"
 #import "UIView+TRExtension.h"
 #import "UIViewController+TRExtension.h"
 #import "TPConfig.h"
 #import "TPConstants.h"
 #import "TPBaseViewController.h"
 #import "TPNavigationController.h"
-#import "TRKeyWindow.h"
 #import "TPNoneDataView.h"
+#import "TRKeyWindow.h"
 #import "TransnKitManager.h"
 #import "TransnKitReasource.h"
 #import "OMPageModel.h"
