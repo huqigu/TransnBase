@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TransnBase'
-  s.version          = '0.1.4'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of TransnBase.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,16 @@ TODO: Add long description of the pod here.
   s.subspec 'Manager' do |ms|
     ms.source_files = 'TransnBase/Manager/*.{h,m}'
     ms.public_header_files = 'TransnBase/Manager/*.h'
+  end
+  
+  s.subspec 'Header' do |hs|
+    hs.source_files = 'TransnBase/Header/*.{h,m}'
+    hs.public_header_files = 'TransnBase/Header/*.h'
+  end
+  
+  s.subspec 'Extension' do |es|
+    es.source_files = 'TransnBase/Extension/*.{h,m}'
+    es.public_header_files = 'TransnBase/Extension/*.h'
   end
   
   # s.subspec 'Kit' do |ks|

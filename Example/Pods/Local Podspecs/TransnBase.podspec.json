@@ -1,6 +1,6 @@
 {
   "name": "TransnBase",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "summary": "A short description of TransnBase.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huqigu/TransnBase",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/huqigu/TransnBase.git",
-    "tag": "0.1.0"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "TransnBase/*.{h,m}",
   "resources": "TransnBase/Assets/TransnBase.bundle",
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "Pod/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "MJExtension": [
@@ -35,19 +35,14 @@
   },
   "subspecs": [
     {
-      "name": "Public",
-      "source_files": "TransnBase/Public/*.{h,m}",
-      "public_header_files": "TransnBase/Public/*.h"
-    },
-    {
       "name": "Manager",
       "source_files": "TransnBase/Manager/*.{h,m}",
       "public_header_files": "TransnBase/Manager/*.h"
     },
     {
-      "name": "Kit",
-      "source_files": "TransnBase/Kit/*/*.{h,m}",
-      "public_header_files": "TransnBase/Kit/*.h"
+      "name": "Header",
+      "source_files": "TransnBase/Header/*.{h,m}",
+      "public_header_files": "TransnBase/Header/*.h"
     },
     {
       "name": "Extension",
@@ -55,34 +50,19 @@
       "public_header_files": "TransnBase/Extension/*.h"
     },
     {
-      "name": "ViewModel",
-      "source_files": "TransnBase/ViewModel/*.{h,m}",
-      "public_header_files": "TransnBase/ViewModel/*.h"
-    },
-    {
-      "name": "Model",
-      "source_files": "TransnBase/Model/*.{h,m}",
-      "public_header_files": "TransnBase/Model/*.h"
-    },
-    {
       "name": "Net",
       "source_files": "TransnBase/Net/*.{h,m}",
-      "public_header_files": "TransnBase/Net/*.h"
-    },
-    {
-      "name": "Utilities",
-      "source_files": "TransnBase/Utilities/*.{h,m}",
-      "public_header_files": "TransnBase/Utilities/*.h"
+      "public_header_files": "TransnBase/Net/*.h",
+      "dependencies": {
+        "TransnBase/Global": [
+
+        ]
+      }
     },
     {
       "name": "Global",
       "source_files": "TransnBase/Global/*.{h,m}",
       "public_header_files": "TransnBase/Global/*.h"
-    },
-    {
-      "name": "Agent",
-      "source_files": "TransnBase/Agent/*.{h,m}",
-      "public_header_files": "TransnBase/Agent/*.h"
     }
   ]
 }

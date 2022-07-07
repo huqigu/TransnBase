@@ -10,26 +10,18 @@
 #endif
 #endif
 
-#import "TPBaseAgent.h"
+#import "TransnKit.h"
 #import "NSString+TRExtension.h"
 #import "UIView+TRExtension.h"
 #import "UIViewController+TRExtension.h"
 #import "TPConfig.h"
 #import "TPConstants.h"
-#import "TPBaseViewController.h"
-#import "TPNavigationController.h"
-#import "TPNoneDataView.h"
-#import "TRKeyWindow.h"
+#import "RCDCommonDefine.h"
+#import "TPCommonFoundation.h"
 #import "TransnKitManager.h"
 #import "TransnKitReasource.h"
 #import "OMPageModel.h"
 #import "TPBaseRequestEntity.h"
-#import "RCDCommonDefine.h"
-#import "TransnKit.h"
-#import "RCDUIBarButtonItem.h"
-#import "TPCommonFoundation.h"
-#import "TPProgressHUD.h"
-#import "TPBaseViewModel.h"
 
 FOUNDATION_EXPORT double TransnBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char TransnBaseVersionString[];
