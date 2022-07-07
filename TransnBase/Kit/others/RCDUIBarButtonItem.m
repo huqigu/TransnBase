@@ -24,7 +24,7 @@
     return [self initContainImage:[UIImage imageNamed:@"navigator_btn_back"]
                    imageViewFrame:CGRectMake(0, 3, 10, 17)
                       buttonTitle:title
-                       titleColor:COLOR_T3
+                       titleColor:[UIColor whiteColor]
                        titleFrame:titleFrame
                       buttonFrame:CGRectMake(-10, 0, 87, 23)
                            target:target
