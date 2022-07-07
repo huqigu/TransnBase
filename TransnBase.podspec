@@ -34,15 +34,15 @@ TODO: Add long description of the pod here.
   
   s.resource = 'TransnBase/Assets/TransnBase.bundle'
   
-  s.subspec 'Manager' do |ms|
-    ms.source_files = 'TransnBase/Manager/*.{h,m}'
-    ms.public_header_files = 'TransnBase/Manager/*.h'
-  end
+  # s.subspec 'Manager' do |ms|
+    # ms.source_files = 'TransnBase/Manager/*.{h,m}'
+    # ms.public_header_files = 'TransnBase/Manager/*.h'
+  # end
   
-  s.subspec 'Header' do |hs|
-    hs.source_files = 'TransnBase/Header/*.{h,m}'
-    hs.public_header_files = 'TransnBase/Header/*.h'
-  end
+  # s.subspec 'Header' do |hs|
+    # hs.source_files = 'TransnBase/Header/*.{h,m}'
+    # hs.public_header_files = 'TransnBase/Header/*.h'
+  # end
   
   # s.subspec 'Kit' do |ks|
     # ks.source_files = 'TransnBase/Kit/*/*.{h,m}'
@@ -55,16 +55,16 @@ TODO: Add long description of the pod here.
     # ks.dependency 'TransnBase/Global'
   # end
   
-  s.subspec 'Net' do |ns|
-    ns.source_files = 'TransnBase/Net/*.{h,m}'
-    ns.public_header_files = 'TransnBase/Net/*.h'
-    ns.dependency 'TransnBase/Global'
-  end
+  # s.subspec 'Net' do |ns|
+    # ns.source_files = 'TransnBase/Net/*.{h,m}'
+    # ns.public_header_files = 'TransnBase/Net/*.h'
+    # ns.dependency 'TransnBase/Global'
+  # end
   
-  s.subspec 'Global' do |gs|
-    gs.source_files = 'TransnBase/Global/*.{h,m}'
-    gs.public_header_files = 'TransnBase/Global/*.h'
-  end
+  # s.subspec 'Global' do |gs|
+    # gs.source_files = 'TransnBase/Global/*.{h,m}'
+    # gs.public_header_files = 'TransnBase/Global/*.h'
+  # end
   
   # s.resource_bundles = {
   #   'TransnBase' => ['TransnBase/Assets/*.{xib,png,xcassets}']
