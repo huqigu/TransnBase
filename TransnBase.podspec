@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TransnBase'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of TransnBase.'
 
 # This description is used to generate tags and improve search results.
@@ -39,17 +39,16 @@ TODO: Add long description of the pod here.
     ms.public_header_files = 'TransnBase/Manager/*.h'
   end
   
-  s.subspec 'Kit' do |ks|
-    ks.source_files = 'TransnBase/Kit/*/*.{h,m}'
-    ks.public_header_files = 'TransnBase/Kit/*/*.h'
-    ks.dependency 'RTRootNavigationController' , '~>  0.8.0'
-  end
-  
-  s.subspec 'Extension' do |es|
-    es.source_files = 'TransnBase/Extension/*.{h,m}'
-    es.public_header_files = 'TransnBase/Extension/*.h'
-    es.dependency 'TransnBase/Kit'
-  end
+  # s.subspec 'Kit' do |ks|
+    # ks.source_files = 'TransnBase/Kit/*/*.{h,m}'
+    # ks.public_header_files = 'TransnBase/Kit/*/*.h'
+    # ks.dependency 'RTRootNavigationController' , '~>  0.8.0'
+    # ks.dependency 'Masonry'
+    # ks.dependency 'MJExtension' , '~>  3.3.0'
+    # ks.dependency 'TransnBase/Net'
+    # ks.dependency 'TransnBase/Manager'
+    # ks.dependency 'TransnBase/Global'
+  # end
   
   s.subspec 'Net' do |ns|
     ns.source_files = 'TransnBase/Net/*.{h,m}'
