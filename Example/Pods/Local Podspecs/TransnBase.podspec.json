@@ -1,6 +1,6 @@
 {
   "name": "TransnBase",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "summary": "A short description of TransnBase.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huqigu/TransnBase",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/huqigu/TransnBase.git",
-    "tag": "0.1.5"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TransnBase/*.{h,m}",
+  "source_files": "TransnBase/Kit/*/*.{h,m}",
   "resources": "TransnBase/Assets/TransnBase.bundle",
   "public_header_files": "Pod/**/*.h",
   "frameworks": "UIKit",
@@ -32,37 +32,5 @@
     "Masonry": [
 
     ]
-  },
-  "subspecs": [
-    {
-      "name": "Manager",
-      "source_files": "TransnBase/Manager/*.{h,m}",
-      "public_header_files": "TransnBase/Manager/*.h"
-    },
-    {
-      "name": "Header",
-      "source_files": "TransnBase/Header/*.{h,m}",
-      "public_header_files": "TransnBase/Header/*.h"
-    },
-    {
-      "name": "Extension",
-      "source_files": "TransnBase/Extension/*.{h,m}",
-      "public_header_files": "TransnBase/Extension/*.h"
-    },
-    {
-      "name": "Net",
-      "source_files": "TransnBase/Net/*.{h,m}",
-      "public_header_files": "TransnBase/Net/*.h",
-      "dependencies": {
-        "TransnBase/Global": [
-
-        ]
-      }
-    },
-    {
-      "name": "Global",
-      "source_files": "TransnBase/Global/*.{h,m}",
-      "public_header_files": "TransnBase/Global/*.h"
-    }
-  ]
+  }
 }

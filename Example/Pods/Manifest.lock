@@ -4,26 +4,10 @@ PODS:
   - RTRootNavigationController (0.8.0):
     - RTRootNavigationController/Core (= 0.8.0)
   - RTRootNavigationController/Core (0.8.0)
-  - TransnBase (0.1.5):
+  - TransnBase (0.1.8):
     - Masonry
     - MJExtension (~> 3.3.0)
     - RTRootNavigationController (~> 0.8.0)
-    - TransnBase/Global (= 0.1.5)
-    - TransnBase/Manager (= 0.1.5)
-    - TransnBase/Net (= 0.1.5)
-  - TransnBase/Global (0.1.5):
-    - Masonry
-    - MJExtension (~> 3.3.0)
-    - RTRootNavigationController (~> 0.8.0)
-  - TransnBase/Manager (0.1.5):
-    - Masonry
-    - MJExtension (~> 3.3.0)
-    - RTRootNavigationController (~> 0.8.0)
-  - TransnBase/Net (0.1.5):
-    - Masonry
-    - MJExtension (~> 3.3.0)
-    - RTRootNavigationController (~> 0.8.0)
-    - TransnBase/Global
 
 DEPENDENCIES:
   - TransnBase (from `../`)
@@ -42,7 +26,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
-  TransnBase: daf48e74507dc7a2a01db4ea786b2a050cbd4675
+  TransnBase: 2cd4f16bbba240f89715253e2559124503c4fe97
 
 PODFILE CHECKSUM: 6dec1f4f79160a41babb7b46c440a7c2f83f52a8
 
