@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TransnBase/*.{h,m}'
+  s.source_files = 'TransnBase/Kit/*/*.{h,m}'
   
   s.resource = 'TransnBase/Assets/TransnBase.bundle'
   
@@ -42,11 +42,6 @@ TODO: Add long description of the pod here.
   s.subspec 'Header' do |hs|
     hs.source_files = 'TransnBase/Header/*.{h,m}'
     hs.public_header_files = 'TransnBase/Header/*.h'
-  end
-  
-  s.subspec 'Extension' do |es|
-    es.source_files = 'TransnBase/Extension/*.{h,m}'
-    es.public_header_files = 'TransnBase/Extension/*.h'
   end
   
   # s.subspec 'Kit' do |ks|
