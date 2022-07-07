@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TransnBase/Kit/*/*.{h,m}'
   
-  s.resource = 'TransnBase/Assets/TransnBase.bundle'
+  # s.resource = 'TransnBase/Assets/TransnBase.bundle'
   
   # s.subspec 'Manager' do |ms|
     # ms.source_files = 'TransnBase/Manager/*.{h,m}'
@@ -44,9 +44,9 @@ TODO: Add long description of the pod here.
     # hs.public_header_files = 'TransnBase/Header/*.h'
   # end
   
-  # s.resource_bundles = {
-  #   'TransnBase' => ['TransnBase/Assets/*.{xib,png,xcassets}']
-  # }
+  s.resource_bundles = {
+    'TransnBase' => ['TransnBase/Assets/*.{xib,png,xcassets}']
+  }
 
   s.public_header_files = 'Pod/**/*.h'
   s.frameworks = 'UIKit'
