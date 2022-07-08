@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TransnBase'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'A short description of TransnBase.'
 
 # This description is used to generate tags and improve search results.
@@ -45,8 +45,8 @@ TODO: Add long description of the pod here.
   # end
   
   s.subspec 'TRPresentationController' do |ts|
-      ts.source_files = 'TransnBase/Kit/TRPresentationController/*.{h,m}'
-      ts.public_header_files = 'TransnBase/Kit/TRPresentationController/*.h'
+      ts.source_files = 'TransnBase/TRPresentationController/*.{h,m}'
+      ts.public_header_files = 'TransnBase/TRPresentationController/*.h'
   end
   
   s.resource_bundles = {
