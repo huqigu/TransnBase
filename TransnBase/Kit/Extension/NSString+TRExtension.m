@@ -410,7 +410,7 @@
     return [[self distinguishwords:urlMatches] distinguishMobileNum:urlMatches];
 }
 
- - (NSTextCheckingResult *)firstMatch:(NSString *)word{
+ - (NSTextCheckingResult *)tr_firstMatch:(NSString *)word{
     NSError *error;
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:word options:NSRegularExpressionCaseInsensitive error:&error];
     if (error) {
@@ -537,7 +537,7 @@
         return self;
     }
     //找到了敏感词
-    NSTextCheckingResult *result = [self firstMatch:word];
+    NSTextCheckingResult *result = [self tr_firstMatch:word];
     if (!result) {
         return self;
     }

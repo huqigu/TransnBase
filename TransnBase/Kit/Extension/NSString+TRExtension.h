@@ -58,7 +58,7 @@
 
 -(NSString *)distinguishStr;
 
-- (NSTextCheckingResult *)firstMatch:(NSString *)word;
+- (NSTextCheckingResult *)tr_firstMatch:(NSString *)word;
 // 字符串转码
 - (NSString*)urlEncodeString;
 
