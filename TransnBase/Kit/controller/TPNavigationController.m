@@ -34,6 +34,11 @@
         }else{
             viewController.hidesBottomBarWhenPushed = YES;
         }
+        if ([viewController respondsToSelector:NSSelectorFromString(@"notSupportedRepeatedPush")]) {
+            if ([viewController.class isEqual:self.rt_topViewController.class]) {
+                return;
+            }
+        }
         [super pushViewController:viewController animated:animated];
     }
     @catch (NSException *e)
