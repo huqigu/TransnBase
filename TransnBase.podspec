@@ -6,9 +6,16 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+# git add .
+# git commit -m ''
+# git push
+# git tag 0.2.5
+# git push origin 0.2.5
+# pod trunk push TransnBase.podspec --allow-warnings --verbose --skip-import-validation
+
 Pod::Spec.new do |s|
   s.name             = 'TransnBase'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'A short description of TransnBase.'
 
 # This description is used to generate tags and improve search results.

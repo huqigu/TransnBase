@@ -12,7 +12,7 @@
     viewController.modalPresentationStyle = UIModalPresentationCustom;
     [TRTransitionDelegate sharedTransition].animateStyle = animateStyle;
     viewController.transitioningDelegate = [TRTransitionDelegate sharedTransition];
-    if (self.presentedViewController) {
+    if (self.presentedViewController && [self.presentingViewController respondsToSelector:NSSelectorFromString(@"NoneAutoDiss")]) {
         __weak typeof(self) weakSelf = self;
         [self dismissViewControllerAnimated:false completion:^{
             __strong typeof(weakSelf) strongSelf = weakSelf;

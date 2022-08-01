@@ -239,7 +239,7 @@
 }
 -(void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)flag completion:(void (^)(void))completion{
     if (self.presentedViewController == viewControllerToPresent) return;
-    if (self.presentedViewController) {
+    if (self.presentedViewController && [self.presentingViewController respondsToSelector:NSSelectorFromString(@"NoneAutoDiss")]) {
         [self dismissViewControllerAnimated:YES completion:^{
             [super presentViewController:viewControllerToPresent animated:flag completion:completion];
         }];
