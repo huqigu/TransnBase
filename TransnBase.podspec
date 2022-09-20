@@ -9,13 +9,13 @@
 # git add .
 # git commit -m ''
 # git push
-# git tag 0.2.7
-# git push origin 0.2.7
+# git tag 0.2.9
+# git push origin 0.2.9
 # pod trunk push TransnBase.podspec --allow-warnings --verbose --skip-import-validation
 
 Pod::Spec.new do |s|
   s.name             = 'TransnBase'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   s.summary          = 'A short description of TransnBase.'
 
 # This description is used to generate tags and improve search results.
@@ -65,5 +65,5 @@ TODO: Add long description of the pod here.
   s.dependency 'MJExtension' , '~>  3.3.0'
   s.dependency 'RTRootNavigationController' , '~>  0.8.0'
   s.dependency 'Masonry'
-  s.dependency 'AlicloudMAN', '~> 1.0.13'
+  #s.dependency 'AlicloudMAN', '~> 1.0.13'
 end
