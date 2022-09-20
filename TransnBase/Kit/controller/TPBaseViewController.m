@@ -14,6 +14,7 @@
 #import "RCDUIBarButtonItem.h"
 
 #import "TransnKitReasource.h"
+#import <AlicloudMobileAnalitics/ALBBMAN.h>
 //#import <RTRootNavigationController/RTRootNavigationController.h>
 //#import "TPConfig.h"
 @interface TPBaseViewController (){
@@ -92,6 +93,12 @@
             [self requestData];
         }
     }
+    [[ALBBMANPageHitHelper getInstance] pageAppear:self];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    [[ALBBMANPageHitHelper getInstance] pageDisAppear:self];
 }
 -(UIFont *)navFont{
     if (self.preferredStatusBarStyle == UIStatusBarStyleLightContent) {

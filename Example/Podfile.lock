@@ -1,15 +1,25 @@
 PODS:
+  - AlicloudMAN (1.0.13):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.16):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.5.0.94)
+  - AlicloudUtils (1.3.9):
+    - AlicloudUTDID
   - Masonry (1.1.0)
   - MJExtension (3.3.0)
   - RTRootNavigationController (0.8.0):
     - RTRootNavigationController/Core (= 0.8.0)
   - RTRootNavigationController/Core (0.8.0)
-  - TransnBase (0.2.3):
+  - TransnBase (0.2.7):
+    - AlicloudMAN (~> 1.0.13)
     - Masonry
     - MJExtension (~> 3.3.0)
     - RTRootNavigationController (~> 0.8.0)
-    - TransnBase/TRPresentationController (= 0.2.3)
-  - TransnBase/TRPresentationController (0.2.3):
+    - TransnBase/TRPresentationController (= 0.2.7)
+  - TransnBase/TRPresentationController (0.2.7):
+    - AlicloudMAN (~> 1.0.13)
     - Masonry
     - MJExtension (~> 3.3.0)
     - RTRootNavigationController (~> 0.8.0)
@@ -18,6 +28,11 @@ DEPENDENCIES:
   - TransnBase (from `../`)
 
 SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudMAN
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
   https://github.com/CocoaPods/Specs.git:
     - Masonry
     - MJExtension
@@ -28,11 +43,15 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AlicloudMAN: b3e4eaaceab24e331377c6b78d29f4a477e55cde
+  AlicloudUT: 6d1cf30d57d096b7e9bb4b069dd0ba6ad59a3338
+  AlicloudUTDID: 7323c443dcdf9a73e2224dc6ce51703671d7a765
+  AlicloudUtils: 66e0ba6ece62d7dd05e9dd95674b2c7811624c2f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
   RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
-  TransnBase: c1cf6cf23ab588078634aa13f94c31f027f2845f
+  TransnBase: af711a5adf2fff34fc47dd38c0d95e27e94a0a8f
 
-PODFILE CHECKSUM: 6dec1f4f79160a41babb7b46c440a7c2f83f52a8
+PODFILE CHECKSUM: d97175caf202ea72a3bc0ee5e30c17ee0c64824d
 
 COCOAPODS: 1.11.2

@@ -1,11 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+source 'https://github.com/aliyun/aliyun-specs.git'
+# use_frameworks!
 
 platform :ios, '10.0'
 
 target 'TransnBase_Example' do
   pod 'TransnBase', :path => '../'
-
+  
   target 'TransnBase_Tests' do
     inherit! :search_paths
   end

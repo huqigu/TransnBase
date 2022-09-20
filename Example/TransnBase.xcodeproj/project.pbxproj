@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB9FE70EC4F932B637850E2 /* libPods-TransnBase_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F728F7BCAF5F197C9D9930 /* libPods-TransnBase_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7DAB0DE7E47C932BBB532A3E /* libPods-TransnBase_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A556B7FEC44991344B54C0 /* libPods-TransnBase_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BE73C2457058AF8D191D0842 /* Pods_TransnBase_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74AD7A5EFA02FE7DBC2F49D /* Pods_TransnBase_Example.framework */; };
-		BF402A5E53D954992B5CA6FE /* Pods_TransnBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB71981206DE5AF2DD436A85 /* Pods_TransnBase_Tests.framework */; };
 		FD23C1D728757C9A00B49328 /* WDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD23C1D528757C9A00B49328 /* WDHomeVC.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43A556B7FEC44991344B54C0 /* libPods-TransnBase_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TransnBase_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E79B3CFB2AEF0EC50CD2504 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		53BF020D6978653741FB0E46 /* Pods-TransnBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransnBase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TransnBase_Tests/Pods-TransnBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A86F3FE727C7DE33A77BA11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -61,13 +62,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73F728F7BCAF5F197C9D9930 /* libPods-TransnBase_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TransnBase_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACC608D99E1CF074F5CD3FFB /* TransnBase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TransnBase.podspec; path = ../TransnBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACC6FF3B3ED469BF1458A54D /* Pods-TransnBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransnBase_Example.release.xcconfig"; path = "Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB42E99A8303D04FDCF2CC0A /* Pods-TransnBase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransnBase_Example.debug.xcconfig"; path = "Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB6FF5FD4008A6045105815B /* Pods-TransnBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransnBase_Tests.release.xcconfig"; path = "Target Support Files/Pods-TransnBase_Tests/Pods-TransnBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EB71981206DE5AF2DD436A85 /* Pods_TransnBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransnBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74AD7A5EFA02FE7DBC2F49D /* Pods_TransnBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransnBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD23C1D528757C9A00B49328 /* WDHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDHomeVC.m; sourceTree = "<group>"; };
 		FD23C1D628757C9A00B49328 /* WDHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHomeVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BE73C2457058AF8D191D0842 /* Pods_TransnBase_Example.framework in Frameworks */,
+				5FB9FE70EC4F932B637850E2 /* libPods-TransnBase_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				BF402A5E53D954992B5CA6FE /* Pods_TransnBase_Tests.framework in Frameworks */,
+				7DAB0DE7E47C932BBB532A3E /* libPods-TransnBase_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				F74AD7A5EFA02FE7DBC2F49D /* Pods_TransnBase_Example.framework */,
-				EB71981206DE5AF2DD436A85 /* Pods_TransnBase_Tests.framework */,
+				73F728F7BCAF5F197C9D9930 /* libPods-TransnBase_Example.a */,
+				43A556B7FEC44991344B54C0 /* libPods-TransnBase_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9F521DBEB6A305D63367FC58 /* [CP] Embed Pods Frameworks */,
+				8F88A1285F020D61896FDF76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,28 +347,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F521DBEB6A305D63367FC58 /* [CP] Embed Pods Frameworks */ = {
+		8F88A1285F020D61896FDF76 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
-				"${BUILT_PRODUCTS_DIR}/TransnBase/TransnBase.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TransnBase/TransnBase.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransnBase.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TransnBase.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransnBase_Example/Pods-TransnBase_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
