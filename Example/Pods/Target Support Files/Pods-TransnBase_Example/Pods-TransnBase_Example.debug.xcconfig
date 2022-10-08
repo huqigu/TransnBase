@@ -1,9 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlicloudMAN/man" "${PODS_ROOT}/AlicloudUT/ut" "${PODS_ROOT}/AlicloudUTDID/utdid" "${PODS_ROOT}/AlicloudUtils/utils"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/TransnBase"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/TransnBase"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"MJExtension" -l"Masonry" -l"RTRootNavigationController" -l"TransnBase" -l"resolv" -l"sqlite3" -l"sqlite3.0" -l"z" -framework "AlicloudMobileAnalitics" -framework "AlicloudUtils" -framework "CoreTelephony" -framework "CrashReporter" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit" -framework "UTDID" -framework "UTMini"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MJExtension" -l"Masonry" -l"RTRootNavigationController" -l"TransnBase" -framework "Foundation" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
