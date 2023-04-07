@@ -16,10 +16,10 @@
 }
 
 + (UIImage *)imageNamed:(NSString *)imageName {
-    UIImage *image = [UIImage imageNamed:imageName
-    inBundle:[self currentBundle]
-           compatibleWithTraitCollection:nil];
-    return image;
+//    UIImage *image = [UIImage imageNamed:imageName
+//    inBundle:[self currentBundle]
+//           compatibleWithTraitCollection:nil];
+    return [UIImage imageNamed:imageName];
 }
 
 @end
